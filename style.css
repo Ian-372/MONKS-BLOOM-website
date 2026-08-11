@@ -136,7 +136,7 @@ button { font: inherit; }
 .hero-image {
     z-index: -2;
     background:
-        url("https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=2200&q=90")
+        url("https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=2200&q=95")
         center/cover no-repeat;
     transform: scale(1.02);
 }
@@ -206,8 +206,8 @@ h2 em { font-style: italic; color: #788d78; }
 }
 .feature-card::before { content: ""; position: absolute; inset: 0; background: inherit; transition: transform 1s ease; z-index: -2; }
 .feature-card:hover::before { transform: scale(1.05); }
-.feature-bird { background: url("https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1400&q=85") center/cover; }
-.feature-flower { background: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1400&q=85") center/cover; }
+.feature-bird { background: url("https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1400&q=95") center/cover; }
+.feature-flower { background: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1400&q=95") center/cover; }
 .feature-card::after { content:""; position:absolute; inset:0; background:linear-gradient(0deg,rgba(4,15,10,.78),transparent 65%); z-index:-1; }
 .feature-content { max-width: 460px; }
 .feature-content h2 { font: 500 clamp(50px,5.5vw,82px)/.84 var(--serif); letter-spacing:-.04em; margin: 18px 0; }
@@ -228,15 +228,15 @@ h2 em { font-style: italic; color: #788d78; }
 .product-card { background:#fff; transition: transform .4s ease; }
 .product-card:hover { transform:translateY(-8px); }
 .product-image { height: 440px; position:relative; background-position:center; background-size:cover; }
-.bird-1 { background-image:url("https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1000&q=85"); }
-.bird-2 { background-image:url("https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?auto=format&fit=crop&w=1000&q=85"); }
-.bird-3 { background-image:url("https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=1000&q=85"); }
-.flower-1 { background-image:url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85"); }
-.flower-2 { background-image:url("https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=1000&q=85"); }
-.flower-3 { background-image:url("https://images.unsplash.com/photo-1593691509543-c55fb32e5cee?auto=format&fit=crop&w=1000&q=85"); }
-.fruit-1 { background-image:url("https://images.unsplash.com/photo-1601039641847-7857b994d704?auto=format&fit=crop&w=1000&q=85"); }
-.fruit-2 { background-image:url("https://images.unsplash.com/photo-1605027990121-cbae9f7b7c4f?auto=format&fit=crop&w=1000&q=85"); }
-.fruit-3 { background-image:url("https://images.unsplash.com/photo-1543158181-e6f9f6712055?auto=format&fit=crop&w=1000&q=85"); }
+.bird-1 { background-image:url("https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?auto=format&fit=crop&w=1200&q=95"); }
+.bird-2 { background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Budgerigar-_Mount_Hope.jpg/1280px-Budgerigar-_Mount_Hope.jpg"); }
+.bird-3 { background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Australian_Zebra_Finch_0A2A3013.jpg/1280px-Australian_Zebra_Finch_0A2A3013.jpg"); }
+.flower-1 { background-image:url("https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=1200"); }
+.flower-2 { background-image:url("https://loremflickr.com/cache/resized/1239_718028057_1d16545a65_1200_900_nofilter.jpg"); }
+.flower-3 { background-image:url("https://loremflickr.com/cache/resized/65535_50749995277_8fe92ada20_h_1200_900_nofilter.jpg"); }
+.fruit-1 { background-image:url("https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg?auto=compress&cs=tinysrgb&w=1200"); }
+.fruit-2 { background-image:url("https://images.pexels.com/photos/2294471/pexels-photo-2294471.jpeg?auto=compress&cs=tinysrgb&w=1200"); }
+.fruit-3 { background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Passion_fruits_-_whole_and_halved.jpg/1280px-Passion_fruits_-_whole_and_halved.jpg"); }
 .tag {
     position:absolute; top:16px; left:16px; padding:7px 10px; background:rgba(250,248,242,.9);
     font-size:8px; font-weight:700; letter-spacing:.15em;
@@ -253,13 +253,13 @@ h2 em { font-style: italic; color: #788d78; }
 
 .editorial-section { display:grid; grid-template-columns:1.15fr .85fr; min-height:760px; background:var(--cream); }
 .editorial-image { min-height:600px; background:center/cover; }
-.flower-main { background-image:url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1600&q=90"); }
+.flower-main { background-image:url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1600&q=95"); }
 .editorial-content { padding:10vw 8vw; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; }
 .editorial-content h2 { font:500 clamp(60px,6vw,90px)/.83 var(--serif); letter-spacing:-.05em; margin:20px 0 30px; }
 .editorial-content > p:not(.eyebrow) { max-width:420px; color:#69756d; line-height:1.8; margin-bottom:30px; }
 
 .seedlings { min-height:760px; position:relative; display:grid; place-items:center; text-align:center; color:white; overflow:hidden; }
-.seedlings-bg { position:absolute; inset:-3%; background:url("https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=2200&q=90") center/cover; filter:saturate(.8); }
+.seedlings-bg { position:absolute; inset:-3%; background:url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=2200&q=95") center/cover; filter:saturate(.9); }
 .seedlings::after { content:""; position:absolute; inset:0; background:rgba(8,30,18,.52); }
 .seedlings-content { position:relative; z-index:2; max-width:800px; padding:70px 25px; }
 .seedlings-content h2 { font:500 clamp(65px,8vw,120px)/.8 var(--serif); letter-spacing:-.055em; margin:20px 0 30px; }
@@ -274,7 +274,7 @@ h2 em { font-style: italic; color: #788d78; }
 .story-content > p + p { margin-top:18px; }
 
 .final-cta { min-height:700px; position:relative; display:grid; place-items:center; text-align:center; color:white; overflow:hidden; }
-.final-cta-bg { position:absolute; inset:-3%; background:url("https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=2200&q=90") center/cover; }
+.final-cta-bg { position:absolute; inset:-3%; background:url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=2200&q=95") center/cover; }
 .final-cta::after { content:""; position:absolute; inset:0; background:rgba(6,25,16,.58); }
 .final-cta-content { position:relative; z-index:2; }
 .final-cta-content h2 { font:500 clamp(65px,8vw,120px)/.8 var(--serif); letter-spacing:-.055em; margin:20px 0 40px; }
