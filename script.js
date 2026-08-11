@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const product = link.dataset.product;
 
         const message =
-            `Hello MONKS BLOOM, I am interested in your ${product}. Please provide more details on availability and price.`;
+            `Hello EVERGREEN EXOTIC, I am interested in your ${product}. Please provide more details on availability and price.`;
 
         link.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
         link.target = "_blank";
